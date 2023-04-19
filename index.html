@@ -18,8 +18,8 @@
                     <li><a href="#intro">Hello</a></li>
                     <li><a href="#bio">Who am i</a></li>
                     <li><a href="#work">What i do</a></li>
-                    <li><a href="./index/formulaire.php">Say hi</a></li>
-                    <li><a href="./index/formulaire.php">My CV</a></li>
+                    <li><a href="#contact">Say hi</a></li>
+                    <li><a href="./index/cv.html">My CV</a></li>
                 </ul>
             </nav>
         </header>
@@ -29,7 +29,7 @@
                     <span>Intro</span>
                 </h2>
                 <div class="section-content">
-                    <p>Hey, je suis Etienne Coudert </p>
+                    <p>Hey, je suis Etienne Coudert, je suis développeur web. Je suis spécialisé en React.js. Actuellement en formation, je cherche maintenant une alternance.</p>
                     <p class="text-up">Un jour je serai le meilleur développeur.</p>
                     <p> Mais alors qu'est ce qu'un bon développeur ? et bien vous avez 4h ! Me battant sans repis, j'essayerai de gagner les défis que l'on me proposera, en traquant avec espoir les challenges qui me feront face grâce à vous. Pour trouver le secret du pouvoir des développeurs.</p>
                 </div>
@@ -43,7 +43,7 @@
             <div class="inner">
                 <h2 class="section-title"><span>Bio</span></h2>
                 <div class="section-content">
-                    <img src="../images/looking.jpg" alt="looking trought hole">
+                    <img class="imgCv" src="./images/IMG_20220516_114803.jpg" alt="Photo Etienne Coudert">
                     <p>En pleine reconversion professionnelle pour devenir développeur web. Après 3 ans dans le professorat des écoles, j'ai voulu trouver une activité professionnelles qui me convenait pleinement. Suite à une longue réflexion je me suis rapproché d'une formation en corrélation avec mes passions. Le développement web me permet de m'épanouir et de me stimuler dans mon travail et d'être motivé dans tous mes projets. C'est dans ce but qu'aujourd'hui je recherche des nouveaux défis qui me permettront de devenir un meilleur développeur. J'ai à coeur d'apprendre chaque jour pour que mon travail soit toujours plus intéressant. </p>
                     <table>
                         <tr>
@@ -120,11 +120,57 @@
                 </div>
             </div>
         </section>
+        <section id="contact" class="page-section">
+            <div class="inner">
+                <h2 class="section-title"><span>Contact</span></h2>
+                <div class="section-content">
+                    <form action="">
+                        <p>
+                            <label>
+                                Human <input type="radio" name="type" value="human" />
+                                Not sure <input type="radio" name="type" value="notsure" checked />
+                                Robot <input type="radio" name="type" value="robot" />
+                            </label>
+                        </p>
+                        <p>
+                            <label for="field-subject">
+                                Subject
+                            </label>
+                            <select name="subject" id="field-subject">
+                                <option value="hi">Hi</option>
+                                <option value="work" selected>Work</option>
+                                <option value="feedback">Feedback</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="field-nickname">Nickname</label>
+                            <input id="field-nickname" name="name" type="text" placeholder="Your nickname" />
+                        </p>
+                        <p>
+                            <label for="field-email">Email address</label>
+                            <input id="field-email" name="email" type="email" placeholder="Your email" />
+                        </p>
+                        <p>
+                            <label for="field-message">Message</label>
+                            <textarea id="field-message" name="message" placeholder="Your message" ></textarea>
+                        </p>
+                        <p>
+                            <input type="reset" class="action-button" value="reset">
+                            <button class="action-button">Send this message!</button>
+                        </p>
+                    </form>
+                    <aside>
+                        N'hesitez pas à me contacter pour plus d'informations ! Je me ferai une joie de vous répondre.
+                    </aside>
+                </div>
+              </div>
+            </section>
        
         <footer id="page-footer">
             Etienne Coudert copyright &copy;
         </footer>
     </div>
+
 
 </body>
 </html>

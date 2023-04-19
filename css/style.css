@@ -172,6 +172,12 @@ body {
       width: 25%;
       border: 1px solid #ccc;
   }
+
+  #bio .imgCv {
+    width : 20%;
+    border-radius: 50%;
+
+  }
   
   /* Work */
   #work {
