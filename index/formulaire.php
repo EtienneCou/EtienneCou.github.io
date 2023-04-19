@@ -14,7 +14,7 @@
             <p>Développeur Web</p>
             <nav id="main-nav" title="main-nav">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="../index.html">Home</a></li>
                     <li><a href="cv.html">My CV</a></li>
                 </ul>
             </nav>
