@@ -173,10 +173,29 @@ body {
       border: 1px solid #ccc;
   }
 
-  #bio .imgCv {
-    width : 20%;
-    border-radius: 50%;
+  .imgCv {
+    width : 300px;
+    border-radius: 12px;
+    height: 300px;
+    margin: auto;
+    background-image: url(../images/IMG_20220516_114803.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1em;
+    box-shadow: 1px 1px 5px 2px #70D2E9;
+  }
 
+
+  .wrapper_cv {
+    background-color:#70D2E9;
+  }
+  
+  .cv {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    padding: auto;
+    
   }
   
   /* Work */
